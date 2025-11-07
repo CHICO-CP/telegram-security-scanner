@@ -1,26 +1,26 @@
-#🔍 Telegram Bot Security Scanner
+# 🔍 Telegram Bot Security Scanner
 
 A comprehensive security testing bot designed to perform authorized security assessments on Telegram bots. This tool helps developers identify potential vulnerabilities in their own Telegram bots through ethical testing methodologies.
 
-#🛡️ Ethical Usage Disclaimer
+# 🛡️ Ethical Usage Disclaimer
 
 IMPORTANT LEGAL NOTICE: This tool is designed for AUTHORIZED SECURITY TESTING ONLY. Unauthorized use against systems you do not own or lack explicit permission to test is ILLEGAL and may constitute a criminal offense.
 
-#✅ Permitted Usage
+# ✅ Permitted Usage
 
 · Testing your own Telegram bots
 · Security assessments with explicit written permission
 · Educational purposes in controlled environments
 · Bug bounty programs with proper authorization
 
-#❌ Prohibited Usage
+# ❌ Prohibited Usage
 
 · Scanning bots without owner consent
 · Testing production systems without permission
 · Malicious hacking attempts
 · Data extraction from unauthorized systems
 
-#📋 Prerequisites
+# 📋 Prerequisites
 
 Required Software
 
@@ -28,7 +28,7 @@ Required Software
 · pip (Python package manager)
 · Git (for cloning repository)
 
-#🔧 Installation
+# 🔧 Installation
 
 1. Clone and Setup
 
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 3. Bot Configuration
 
-#Get Bot Token from BotFather
+# Get Bot Token from BotFather
 
 1. Open Telegram and search for [BotFather](t.me/BotFather)
 2. Send /newbot command
@@ -66,7 +66,7 @@ Replace the token in the code:
 API_TOKEN = "YOUR_ACTUAL_BOT_TOKEN_HERE"
 ```
 
-#🚀 Usage
+# 🚀 Usage
 
 Starting the Bot
 
@@ -74,19 +74,26 @@ Starting the Bot
 python security_scanner.py
 ```
 
-#Available Commands
+# Available Commands
 
 Command Description Usage Example
 /start Welcome message and command list /start
+
 /scan_bot Comprehensive security scan /scan_bot @targetbot
+
 /test_bot_encryption Encryption and encoding tests /test_bot_encryption @targetbot
+
 /test_bot_api API endpoint security testing /test_bot_api @targetbot
+
 /check_bot_vulnerabilities Vulnerability discovery /check_bot_vulnerabilities @targetbot
+
 /bot_security_report Generate security report /bot_security_report @targetbot
+
 /list_scanned_bots View scan history /list_scanned_bots
+
 /help Ethical usage guide /help
 
-#🔍 How It Works
+# 🔍 How It Works
 
 Security Testing Methodology
 
@@ -123,7 +130,7 @@ Risk Level Classification
 · MEDIUM: Plan for next update (performance issues, debug info)
 · LOW: Monitor and document (slow responses, minor issues)
 
-#📊 Database Structure
+# 📊 Database Structure
 
 The bot automatically creates and maintains:
 
@@ -143,7 +150,7 @@ vulnerability_log Table
 · risk_level: Severity assessment
 · timestamp: Discovery time
 
-#⚠️ Technical Limitations
+# ⚠️ Technical Limitations
 
 Current Implementation Notes
 
@@ -161,7 +168,7 @@ Practical Implementation Approaches
 · Use webhook integrations for response monitoring
 · Implement proxy servers for traffic analysis
 
-#🎯 Best Practices
+# 🎯 Best Practices
 
 For Security Testing
 
@@ -179,7 +186,7 @@ For Bot Development
 4. Implement proper error handling without information disclosure
 5. Use strong encryption for sensitive data
 
-#🆘 Troubleshooting
+# 🆘 Troubleshooting
 
 Common Issues
 
@@ -201,7 +208,7 @@ Database errors:
 · Verify database schema initialization
 · Ensure adequate disk space
 
-#📝 Responsible Disclosure
+# 📝 Responsible Disclosure
 
 When vulnerabilities are found:
 
@@ -211,13 +218,13 @@ When vulnerabilities are found:
 4. Allow reasonable time: For vulnerability resolution
 5. Maintain confidentiality: Until fixes are deployed
 
-#👨‍💻 Developer Information
+# 👨‍💻 Developer Information
 
 Developer: [Ghost Developer](t.me/Gh0stDeveloper)
 Telegram Channel: [Ghost Developer](https://t.me/+KQkliYhDy_U1N2Ex)
 Contact: For security issues or collaboration requests
 
-#📄 License
+# 📄 License
 
 This project is intended for educational and authorized security testing purposes only. Users are responsible for ensuring they have proper authorization before using this tool.
 
