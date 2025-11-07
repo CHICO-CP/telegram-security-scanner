@@ -228,7 +228,7 @@ Contact: For security issues or collaboration requests
 
 This project is intended for educational and authorized security testing purposes only. Users are responsible for ensuring they have proper authorization before using this tool.
 
-#🔒 Security Notes
+# 🔒 Security Notes
 
 · Never commit actual API tokens to version control
 · Use environment variables for sensitive configuration
