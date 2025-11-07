@@ -145,9 +145,13 @@ scanned_bots Table
 vulnerability_log Table
 
 · bot_username: Affected bot
+
 · vulnerability: Vulnerability type
+
 · description: Detailed explanation
+
 · risk_level: Severity assessment
+
 · timestamp: Discovery time
 
 # ⚠️ Technical Limitations
@@ -164,8 +168,11 @@ The current version uses simulated responses for demonstration purposes. In a pr
 Practical Implementation Approaches
 
 · Request temporary API access from bot owners
+
 · Create dedicated testing environments
+
 · Use webhook integrations for response monitoring
+
 · Implement proxy servers for traffic analysis
 
 # 🎯 Best Practices
@@ -231,7 +238,11 @@ This project is intended for educational and authorized security testing purpose
 # 🔒 Security Notes
 
 · Never commit actual API tokens to version control
+
 · Use environment variables for sensitive configuration
+
 · Regularly update dependencies for security patches
+
 · Monitor bot usage and access patterns
+
 · Implement logging and audit trails
