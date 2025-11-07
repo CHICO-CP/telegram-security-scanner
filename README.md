@@ -251,7 +251,9 @@ When vulnerabilities are found:
 # 👨‍💻 Developer Information
 
 Developer: [Ghost Developer](t.me/Gh0stDeveloper)
+
 Telegram Channel: [Ghost Developer](https://t.me/+KQkliYhDy_U1N2Ex)
+
 Contact: For security issues or collaboration requests
 
 # 📄 License
