@@ -100,34 +100,47 @@ Security Testing Methodology
 1. Information Gathering
 
 · Bot identification and basic info collection
+
 · Response time analysis
+
 · Endpoint discovery
 
 2. Vulnerability Scanning
 
 · SQL Injection Tests: Common SQLi payloads
+
 · XSS Testing: Cross-site scripting vectors
+
 · Path Traversal: File system access attempts
+
 · Command Injection: OS command execution tests
+
 · Input Validation: Various input sanitization checks
 
 3. Encryption Analysis
 
 · Base64 encoding/decoding tests
+
 · Hash function usage analysis
+
 · Weak encryption pattern detection
 
 4. API Security
 
 · Endpoint exposure analysis
+
 · Sensitive data disclosure checks
+
 · Error handling evaluation
 
 Risk Level Classification
 
 · CRITICAL: Immediate action required (command injection, SQLi)
+
 · HIGH: Address within 48 hours (data exposure, XSS)
+
 · MEDIUM: Plan for next update (performance issues, debug info)
+
 · LOW: Monitor and document (slow responses, minor issues)
 
 # 📊 Database Structure
@@ -137,9 +150,13 @@ The bot automatically creates and maintains:
 scanned_bots Table
 
 · bot_username: Target bot username
+
 · test_type: Type of security test performed
+
 · result: Test results summary
+
 · risk_level: Highest risk identified
+
 · timestamp: When the test was performed
 
 vulnerability_log Table
@@ -200,19 +217,25 @@ Common Issues
 Bot not starting:
 
 · Verify Python version compatibility
+
 · Check all dependencies are installed
+
 · Confirm Bot token is valid and active
 
 Commands not working:
 
 · Ensure bot has message privacy disabled
+
 · Check that bot is added to appropriate chats
+
 · Verify command syntax and bot username format
 
 Database errors:
 
 · Check file permissions for SQLite database
+
 · Verify database schema initialization
+
 · Ensure adequate disk space
 
 # 📝 Responsible Disclosure
